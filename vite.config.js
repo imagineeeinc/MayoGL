@@ -2,7 +2,7 @@ const path = require('path')
 const { defineConfig } = require('vite')
 
 module.exports = defineConfig({
-	root: "./example",
+	root: "./lib/example",
 	dest: "./dist",
   build: {
 		outDir: "../dist",
