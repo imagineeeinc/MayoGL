@@ -2,11 +2,13 @@
   "name": "mayo-gl",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/my-lib.umd.js",
   "module": "./dist/my-lib.es.js",
   "exports": {
@@ -17,5 +19,30 @@
   },
   "devDependencies": {
     "vite": "^2.8.0"
-  }
+  },
+  "description": "A light weight web 2D graphics library",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineeeinc/MayoGL.git"
+  },
+  "keywords": [
+    "mayo",
+    "mayoGL",
+    "mayogl",
+    "gl",
+    "graphics",
+    "graphics-library",
+    "2d",
+    "graphics",
+    "html-canvas"
+  ],
+  "author": "imagineeeinc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imagineeeinc/MayoGL/issues"
+  },
+  "homepage": "https://github.com/imagineeeinc/MayoGL#readme"
 }
