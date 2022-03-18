@@ -5,10 +5,11 @@ module.exports = defineConfig({
 	root: "./lib/example",
 	dest: "./dist",
   build: {
-		outDir: "../dist",
+		outDir: "../../dist",
     lib: {
       entry: path.resolve(__dirname, 'lib/main.js'),
       name: 'MayoGL',
+      minimize: true,
       fileName: (format) => `MayoGL.${format}.js`
     }
   }
