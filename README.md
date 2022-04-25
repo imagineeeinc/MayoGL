@@ -27,20 +27,6 @@ var { MayoGL } = require("mayo-gl")
 ```
 ## Usage
 Documentation found [here](https://imagineee.gitbook.io/mayo-gl/)
-## Example
-### Initating a display
-```js
-var disp = new MayoGL(document.getElementById("screen"),{width: 800, height: 600, alpha: true, clearColor: '#222', antiAlias: true})
-```
-### Drawing rectangles
-```js
-disp.rect({x:10,y:10,w:10,h:10,color:disp.color(255,0,0)})
-```
-### Drawing Individual pixels
-```js
-disp.setPixel({x:10,y:15,color:disp.color(255,0,0)})
-```
-### Drawing polygons
-```js
-disp.polygon({x:50,y:50,points:[{x:0,y:0},{x:0,y:50},{x:35,y:35},{x:50,y:0},{x:0,y:0}],color:disp.color(255,0,0)})
-```
+
+## License
+This project is under [MIT License](https://github.com/imagineeeinc/MayoGL/blob/main/LICENSE)
